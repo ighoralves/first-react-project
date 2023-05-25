@@ -1,4 +1,4 @@
-import ProjectForm from "../../project/ProjectForm";
+import ProjectForm from "../project/ProjectForm";
 
 import styles from "./NewProject.module.css";
 
@@ -7,7 +7,7 @@ function NewProject() {
     <div className={styles.newproject_container}>
       <h1>NewProject</h1>
       <p>Crie seu projeto para depois adicionar os serviços</p>
-      <ProjectForm />
+      <ProjectForm btnText="Criar projeto" />
     </div>
   );
 }
